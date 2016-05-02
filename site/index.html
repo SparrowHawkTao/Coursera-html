@@ -3,7 +3,81 @@
 <head>
 	<title>hello, coursera-html</title>
 </head>
+<style type="text/css">
+	p {
+		color: green;
+		text-align: center;
+	}
+	.blue {
+		color: blue;
+		font: 20px;
+		text-align: left;
+	}
+	#id_para {
+		color: red;
+		text-align: right;
+	}
+	div.background {
+		background-color: green;
+		opacity: .5;
+	}
+	div > h2 {
+		background-color: blue;
+		opacity: .5;
+	}
+	article li {
+		background-color: yellow;
+		opacity: .5;
+	}
+	a:link, a:visited {
+		color: green;
+		opacity: .5;
+	}
+	a:hover, a:active {
+		color: blue;
+		font-style: italic;
+	}
+</style>
 <body>
-<h1>hello, Coursera! This is a greate course!</h1>
+<h1>hello, Coursera! This is a greate course! Made a great change.</h1>
+<a href="https://www.baidu.com/" target="_blank">抒欣是个傻宝宝！</a>
+<p>
+	This is a paragraph for demo the css.
+</p>
+<p class = "blue">
+	This is a demo of the class selector.
+</p>
+<p id = "id_para">
+	This is a demo of the id selector.
+</p>
+<div class="background">
+	This is combined a.b selector demo. &lt;div with class background &gt; The relation ship is &amp;.
+</div>
+<div>
+	This is a div to demo direct descendants.
+	<h2> This is a &lt;p&gt; directly inside a &lt;div&gt; element</h2>
+</div>
+<div>
+	This is a div to demo direct descendants.
+	<section>
+	<h2> This is a &lt;p&gt; not directly inside a &lt;div&gt; element</h2>
+	</section>
+</div>
+<article>
+	<ul>
+		<li>apple</li>
+		<li>pearl</li>
+		<li>avocado</li>
+	</ul>
+</article>
+
+<a>
+	<div>div1</div>
+	<div>div2</div>
+	<div>div3</div>
+	<div>div4</div>
+	<div>div5</div>
+</a>
+
 </body>
 </html>
