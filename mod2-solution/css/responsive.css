@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+h1 {
+	text-align: center;
+}
+
 div {
 	position: relative;
 	padding: 20px 10px 10px 10px;
@@ -20,27 +24,26 @@ p.title {
 }
 
 div.content {
-	background-color: grey;
+	background-color: lightgrey;
 	border: 1px solid black;
-	padding: 10px 10px 10px 10px;
+	padding: 20px 10px 10px 10px;
 }
 
 #p1 {
-	background-color: pink;
+	background-color: #990000;
 }
 
 #p2 {
-	background-color: maroon;
+	background-color: #009900;
 }
 
 #p3 {
-	background-color: cyan;
+	background-color: blue;
 }
 
 @media (min-width: 992px) {
 	.col-lg-4 {
 		float: left;
-		opacity: 0.6
 	}
 
 	.col-lg-4 {
@@ -51,7 +54,6 @@ div.content {
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6, .col-md-12 {
 		float: left;
-		opacity: 0.6;
 	}
 	.col-md-6 {
 		width: 50%;
@@ -64,7 +66,6 @@ div.content {
 @media (max-width: 767px) {
 	.col-sm-12 {
 		float: left;
-		opacity: .6;
 		width: 100%
 	}
 
